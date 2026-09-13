@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://einv-billing.in/sitemap.xml
