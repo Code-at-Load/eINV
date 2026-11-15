@@ -1,0 +1,19 @@
+:root {
+  color-scheme: light;
+  --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px;
+  --text-xs: .8125rem; --text-sm: .875rem; --text-md: 1rem; --text-lg: 1.25rem; --text-xl: 1.5625rem;
+  --text-display-s: clamp(2.25rem, 4vw + .5rem, 3.75rem); --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
+  --text-section: clamp(2rem, 2.5vw + 1rem, 3.5rem); --text-title: clamp(1.25rem, .75vw + .875rem, 1.625rem); --text-lead: clamp(1.125rem, .35vw + 1rem, 1.375rem);
+  --container: 1440px; --gutter: 64px; --gap-columns: 32px; --header-height: 80px; --section-gap-s: 120px; --section-gap: 144px;
+  --color-paper: #f7f5f1; --color-paper-2: #efede8; --color-cotton: #fffdfa; --color-ink: #202124; --color-muted: #686a70;
+  --color-rule: #ddd9d1; --color-rule-2: #c9c4bb; --color-accent: #165cc5; --color-accent-2: #10499f; --color-accent-ink: #fff;
+  --color-board: #152338; --color-board-type: #eef4ff; --color-board-rule: #526077; --color-success: #247447;
+  --pricing-gradient: linear-gradient(110deg, #1551bc, #0878bd); --developer-gradient: linear-gradient(110deg, #12243f, #1c4390);
+  --font-display: "General Sans", ui-sans-serif, system-ui, sans-serif; --font-body: var(--font-display);
+  --radius-card: 8px; --radius-stock: 8px; --edge-stock: 0 0 0 .5px rgba(32,32,32,.22), 0 1px 0 rgba(32,32,32,.12); --cast-stock: 6px 5px 10px -6px rgba(32,32,32,.3);
+}
+[data-theme="dark"] {
+  color-scheme: dark; --color-paper: #131b25; --color-paper-2: #1b2531; --color-cotton: #202b38; --color-ink: #edf1f6; --color-muted: #b0bdce;
+  --color-rule: #3a485b; --color-rule-2: #64768e; --color-accent: #9bc2ff; --color-accent-2: #bdd7ff; --color-accent-ink: #122843;
+  --edge-stock: none; --cast-stock: none;
+}
